@@ -1,0 +1,91 @@
+h1 {
+	text-align: center;
+	font-family: 'Sniglet', cursive;
+	color: white;
+}
+
+body
+{
+background-image:url("http://mobi-wall.brothersoft.com/files/480320/b/1281604219437.jpg");
+background-repeat:no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+}
+
+header {
+	padding-top:40px;
+}
+
+p {
+	vertical-align: middle;
+}
+
+#content {
+	width:450px;
+	height:450px;
+	margin:0 auto;
+	border-radius: 50%;
+	background-color:rgba(255, 255, 255, 0.25);
+}
+
+#content .item {
+	text-align: center;
+	border-radius:50%;
+	float:left;
+	margin:20px;
+}
+
+#content .item.pic img {
+	height: 100px;
+	width: 100px;
+}
+
+#content .item.icon img {
+	height: 100px;
+	width: 100px;
+}
+
+#content .item.text {
+	height: 125px;
+	width: 125px;
+	line-height:125px;
+	margin:5px;
+	background-color: tan;
+	font-size: 18px;
+	font-family: 'Sniglet', cursive;
+}
+
+.shh, #content .item.text.this:hover span {display: none}
+
+#content .item.text.this:hover .shh {display: inline}
+
+.shh {
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+}
+
+#content .item img {
+	height: 100px;
+	width: 100px;
+	border-radius:50%;
+}
+
+#content .item.that {
+	position:relative;
+	top:-20px;
+	right:-20px;
+}
+
+#content .item.this {
+	position:relative;
+	top:20px;
+	left:15px;
+}
+
+#content .item.other {
+	position:relative;
+	bottom:10px;
+	left:-15px;
+}
